@@ -1,0 +1,5 @@
+{% for i in list_data %}
+	<ul>
+		<li><a href="{% url 'edit' i.pk %}">{{i}}</a></li>
+	</ul>
+{% endfor %}
